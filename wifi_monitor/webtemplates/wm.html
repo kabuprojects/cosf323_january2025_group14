@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WiFi Security Monitor</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #007bff, #00c851); /* Bluish-green gradient */
+            text-align: center;
+            padding: 20px;
+            color: white;
+        }
+
+        h1, h2 {
+            color: #fff;
+        }
+
+        button {
+            background-color: #004085;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #networks, #alerts {
+            max-width: 500px;
+            margin: 20px auto;
+            text-align: left;
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            color: black;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        .alert {
+            background-color: #ffcccb;
+            color: #b30000;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+    </style>
+    <script>
+        var socket = io.connect('http://' + document.domain + ':' + location.port);
+
+        // Update networks list
+        socket.on("update_networks", function(data) {
+            var networkList = document.getElementById("networks");
+            networkList.innerHTML = "";
+            data.forEach(function(network) {
+                networkList.innerHTML += <li><strong>${network.SSID}</strong> - ${network.Encryption}</li>;
+            });
+        });
+
+        // Display alerts
+        socket.on("alert", function(msg) {
+            alert(msg);
+            document.getElementById("alerts").innerHTML += <div class="alert">${msg}</div>;
+        });
+
+        // Trigger WiFi scan
+        function scanWiFi() {
+            fetch("/scan");
+        }
+    </script>
+</head>
+<body>
+    <h1>WiFi Security Monitor</h1>
+    <button onclick="scanWiFi()">Scan Networks</button>
+    <h2>Detected Networks</h2>
+    <ul id="networks"></ul>
+    <h2>Alerts</h2>
+    <div id="alerts"></div>
+</body>
+</html>
