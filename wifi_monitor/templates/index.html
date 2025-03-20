@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wi-Fi Security Monitor</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!-- jQuery for AJAX -->
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background: linear-gradient(135deg, #2c3e50, #1abc9c);
+            color: white;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 { margin-bottom: 10px; }
+        p { margin-bottom: 20px; }
+        table { 
+            width: 80%; 
+            border-collapse: collapse; 
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 10px;
+        }
+        th, td { 
+            padding: 12px; 
+            border: 1px solid white; 
+            color: white;
+        }
+        th { background-color: rgba(255, 255, 255, 0.2); }
+        .high-risk { color: red; font-weight: bold; }
+        .secure { color: lightgreen; }
+        button { 
+            padding: 12px 20px; 
+            font-size: 16px; 
+            cursor: pointer; 
+            border: none; 
+            border-radius: 8px;
+            background: #27ae60;
+            color: white;
+            transition: 0.3s;
+        }
+        button:hover { background: #2ecc71; }
+        #alert-box {
+            display: none;
+            background: rgba(255, 0, 0, 0.9);
+            color: white;
+            padding: 15px;
+            border-radius: 8px;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Wi-Fi Security Monitor</h1>
+    <p>Click "Scan" to start monitoring. The table will refresh every 5 seconds.</p>
+    <button id="start-scan">Scan</button>
+    <div id="alert-box"></div>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>SSID</th>
+                <th>Signal</th>
+                <th>Security</th>
+                <th>Risk</th>
+            </tr>
+        </thead>
+        <tbody id="wifi-table">
+            <tr><td colspan="4">Click "Scan" to start...</td></tr>
+        </tbody>
+    </table>
+
+    <script>
+        let interval;
+
+        function fetchWiFiData() {
+            $.getJSON("/scan", function(data) {  // Calls the Flask backend API
+                let rows = "";
+                let attackMessage = "";
+                
+                data.forEach(network => {
+                    let riskClass = "secure";
+                    if (network.risk.includes("HIGH RISK")) {
+                        riskClass = "high-risk";
+                        attackMessage += `🚨 Attack Detected on <b>${network.ssid}</b>!<br>`;
+                    }
+
+                    rows += `<tr>
+                        <td>${network.ssid}</td>
+                        <td>${network.signal}</td>
+                        <td>${network.security}</td>
+                        <td class="${riskClass}">${network.risk}</td>
+                    </tr>`;
+                });
+
+                $("#wifi-table").html(rows);
+
+                // Show specific attack alerts
+                if (attackMessage) {
+                    $("#alert-box").html(attackMessage).fadeIn(300);
+                    setTimeout(() => { $("#alert-box").fadeOut(500); }, 5000);
+                }
+            });
+        }
+
+        $("#start-scan").click(function() {
+            fetchWiFiData();  // First fetch
+            if (!interval) {
+                interval = setInterval(fetchWiFiData, 5000);  // Scans every 5 seconds
+            }
+        });
+
+    </script>
+
+</body>
+</html>

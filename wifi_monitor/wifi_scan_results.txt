@@ -1,0 +1,147 @@
+
+Scan Time: 2025-03-20 19:22:46
+==================================================
+SSID: WIFI TEST 1, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: For Wifi - 0111689782, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: BLVCK_CARDS, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -78, Security: WPA2-Personal, Risk: Secure
+==================================================
+
+Scan Time: 2025-03-20 19:22:51
+==================================================
+SSID: WIFI TEST 1, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: For Wifi - 0111689782, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: BLVCK_CARDS, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -78, Security: WPA2-Personal, Risk: Secure
+==================================================
+
+Scan Time: 2025-03-20 19:22:56
+==================================================
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: BLVCK_CARDS, Signal: -80, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
+
+Scan Time: 2025-03-20 19:23:01
+==================================================
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: BLVCK_CARDS, Signal: -80, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
+
+Scan Time: 2025-03-20 19:23:06
+==================================================
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: BLVCK_CARDS, Signal: -80, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
+
+Scan Time: 2025-03-20 19:23:11
+==================================================
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: Im_Tariyan, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -76, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: BLVCK_CARDS, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
+
+Scan Time: 2025-03-20 19:23:16
+==================================================
+SSID: WIFI TEST 1, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: Im_Tariyan, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -76, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: BLVCK_CARDS, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -77, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
+
+Scan Time: 2025-03-20 19:23:21
+==================================================
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: Im_Tariyan, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: REDTEL , Signal: -79, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: REDTEL , Signal: -57, Security: Open (Unsecured), Risk: HIGH RISK: No encryption!
+SSID: treyedues, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: Champ, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: MDOMO MBILI , Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: For Wifi - 0111689782, Signal: -76, Security: WPA2-Personal, Risk: Secure
+SSID: Gydamemonðð¤, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: BLVCK_CARDS, Signal: -79, Security: WPA2-Personal, Risk: Secure
+SSID: WIFI TEST 1, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Pratin, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+SSID: LAN SOLO, Signal: -78, Security: WPA2-Personal, Risk: Secure
+SSID: Jonez, Signal: -83, Security: WPA2-Personal, Risk: UNSTABLE SIGNAL
+==================================================
